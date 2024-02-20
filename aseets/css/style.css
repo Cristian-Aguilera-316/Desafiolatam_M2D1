@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.body {
+    display: flex;
+}
+.asidecolm {
+    width: 20rem;
+    border: 1px solid #828485;
+}
+.asidetop {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #828485;
+    height: 61px;
+    padding-left: 1rem;
+    font-size: 12px;
+    color:#828485;
+
+}
+.asidetop img {
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    border:  2px solid #E8EBE4;
+}
+.username {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.asidetopicon {
+    display: flex;
+    padding-left: 5rem;
+    gap: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+    color: #828485;
+}
+.asidemessage {
+    display: flex;
+    border-bottom: 1px solid #828485;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+}
+.asidemessage p {
+   border: 1px solid #828485;
+   padding: 1rem 3rem;
+   background-color: #A491D2;
+   color: #fff;
+}
+.contact1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    height: 4.5rem;
+    padding-left: 2rem;
+    border-bottom: 1px solid #828485;
+}
+.contact1 img {
+    border-radius: 200px;
+    border: 2px solid #E8EBE4;
+    width: 50px;
+    height: 50px;
+}
+.startnet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 730px;
+    width: 1130px;
+}
+.mainimage {
+    width: 20rem;
+    height: 20rem;
+    padding-bottom: 30px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 4rem;
+}
+.instruction {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.instruction span {
+    font-weight: bold;
+}
