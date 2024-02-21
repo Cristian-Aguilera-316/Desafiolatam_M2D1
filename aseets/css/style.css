@@ -1,12 +1,17 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 .body {
     display: flex;
+    flex-wrap: wrap;
+}
+.aside1 {
+    width: 25%;
+    height: 100%;
 }
 .asidecolm {
-    width: 20rem;
     border: 1px solid #828485;
 }
 .asidetop {
@@ -70,13 +75,16 @@
     width: 50px;
     height: 50px;
 }
+.main1 {
+    width: 74%;
+    height: 100%;
+}
 .startnet {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 730px;
-    width: 1130px;
+    height: 700px;
 }
 .mainimage {
     width: 20rem;
